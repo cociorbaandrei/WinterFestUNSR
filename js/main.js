@@ -6,7 +6,7 @@ $(document).ready(function(){
   //------------------------------------//
     	var menu = $('.navbar');
     	$(window).bind('scroll', function(e){
-    		if($(window).scrollTop() > 140){
+    		if($(window).scrollTop() > 200){
     			if(!menu.hasClass('open')){
     				menu.addClass('open');
     			}
