@@ -5,6 +5,7 @@
  */
 body {
   font-family: 'Lato';
+
 }
 
 h1,
@@ -40,10 +41,17 @@ h6 {
 }
 
 .navbar-custom .navbar-brand {
-  text-transform: uppercase;
-  font-size: 1rem;
+  background: url('../img/sigla1.png') center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 60px;
+  object-fit: scale-down;
+  background-attachment: scroll;
+  background-size: cover;
+
+
   letter-spacing: 0.1rem;
-  font-weight: 700;
+
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -54,20 +62,28 @@ h6 {
 }
 
 header.masthead {
+
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top:100px;
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: url('../img/Background.png') center;
   background-repeat: no-repeat;
-  background-position: center center;
+  max-width:100%;
+  object-fit: scale-down;
   background-attachment: scroll;
   background-size: cover;
 }
 
 header.masthead .masthead-content {
+
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-attachment: scroll;
+
   z-index: 1;
-  position: relative;
+
+
 }
 
 header.masthead .masthead-content .masthead-heading {
@@ -78,7 +94,7 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
-header.masthead .bg-circle {
+/* header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
@@ -111,7 +127,7 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
-}
+} */
 
 @media (min-width: 992px) {
   header.masthead {
@@ -156,4 +172,12 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+
+
+.flake{
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  position:absolute;
 }
