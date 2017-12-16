@@ -12,6 +12,7 @@ $(document).ready(function(){
     			}
     		}else{
     			if(menu.hasClass('open')){
+            $('.logo').
     				menu.removeClass('open');
     			}
     		}
